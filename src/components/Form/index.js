@@ -32,3 +32,13 @@ export default function Form({ isLogin }) {
         </>
     )
 }
+
+const styles = StyleSheet.create({
+    input: {
+        padding: 16,
+        margin: 6,
+        width: 300,
+        height: 50,
+        backgroundColor: globalColors.white,
+    }
+})
