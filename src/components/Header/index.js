@@ -14,3 +14,27 @@ export default function Header({ isLogged, isLogin }) {
         </View>
     )
 }
+
+
+const styles = StyleSheet.create({
+    container: {
+        height: 60
+    },
+    button: {
+        position: "absolute",
+        top: 16,
+        right: 16,
+        justifyContent: 'center',
+        textAlign: 'center',
+        borderColor: globalColors.primary,
+        borderWidth: 2,
+        borderRadius: 2.5,
+        width: 100,
+        height: 40,
+    },
+    text: {
+        fontSize: 16,
+        fontWeight: 600,
+        color: globalColors.primary
+    }
+})
