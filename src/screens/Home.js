@@ -43,3 +43,66 @@ export default function Home() {
         </View>
     )
 }
+
+
+const styles = StyleSheet.create({
+    container: {
+        marginTop: 8,
+        justifyContent: 'center', 
+        alignItems: 'center',
+    },
+    container__content: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginTop: 40
+    },
+    book: {
+        width: 357,
+        height: 139
+    },
+    book__headline: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        height: 30
+    },
+    book__title: {
+        fontSize: 16,
+        fontWeight: 700
+    },
+    book__pages: {
+        color: globalColors.gray,
+        fontSize: 16
+    },
+    book__description: {
+        color: globalColors.gray
+    },
+    book__options: {
+        marginTop: 16,
+        flexDirection: "row",
+        width: 160,
+        height: 40,
+        fontSize: 16,
+        justifyContent: "space-between"
+    },
+    book__btn: {
+        borderRadius: "2.5px",
+        justifyContent: 'center',
+        width: 80,
+        height: 40,
+    },
+    book__notes: {
+        backgroundColor: globalColors.primary
+    },
+    book__btnText: {
+        textAlign: 'center',
+        fontWeight: '500',
+        fontSize: 20,
+    },
+    book__notesText: {
+        color: globalColors.white
+    },
+    book__detailsText: {
+        color: globalColors.primary
+    }
+})
